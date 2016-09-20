@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+
+.FormName {
+	text-align: center;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 100px;
+	color: black;
+}
+
+.headerContent {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	font-family: 'Exo', sans-serif;
+	font-size: 50px;
+	font-weight: 200;
+	color: #990000 !important;
+}
+
+.logo-local {
+	padding-top: 25px;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.logo-global {
+	padding-top: 30px;
+	display: inline-block;
+	margin-right: 100px;
+	float: right;
+}
+
+.block {
+	height: 500px;
+	width: 800px;
+	text-align: left;
+}
+
+.center {
+	margin: auto;
+	background-color: white;
+}
+
+.straightLine {
+	border-top: 1px solid black;
+}
+
+.formContent {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+.welcomeLabel {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.statitisticsBlock {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 5x;
+	clear: both;
+}
+
+div.visibleHeader {
+	cursor: pointer;
+}
+
+.visibleHeader .sign:after {
+	content: "-";
+}
+
+.visibleHeader.expand .sign:after {
+	content: "+";
+	display: inline-block;
+}
+
+.hiddenBody {
+	display: none;
+	margin-left: 20px;
+}

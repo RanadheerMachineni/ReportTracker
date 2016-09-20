@@ -1,0 +1,2665 @@
+/*=======================================
+   FONT ATTACHMENT
+=======================================*/
+
+
+@font-face {
+	font-family: 'toyota_displaybold';
+	src: url('../fonts/toyotadisplaybold-webfont.eot');
+	src: url('../fonts/toyotadisplaybold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/toyotadisplaybold-webfont.ttf') format('truetype'), url('../fonts/toyotadisplaybold-webfont.svg#toyota_displaybold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'toyota_displayregular';
+	src: url('../fonts/toyotadisplayregular-webfont.eot');
+	src: url('../fonts/toyotadisplayregular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/toyotadisplayregular-webfont.ttf') format('truetype'), url('../fonts/toyotadisplayregular-webfont.svg#toyota_displayregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'toyota_textbold';
+	src: url('../fonts/toyotatextbold-webfont.eot');
+	src: url('../fonts/toyotatextbold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/toyotatextbold-webfont.woff') format('woff'), url('../fonts/toyotatextbold-webfont.ttf') format('truetype'), url('../fonts/toyotatextbold-webfont.svg#toyota_textbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'toyota_textregular';
+	src: url('../fonts/toyotatextregular-webfont.eot');
+	src: url('../fonts/toyotatextregular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/toyotatextregular-webfont.woff') format('woff'), url('../fonts/toyotatextregular-webfont.ttf') format('truetype'), url('../fonts/toyotatextregular-webfont.svg#toyota_textregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*=============================
+		MAIN STYLE
+==============================*/
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'toyota_textregular';
+}
+p {
+	font-size: 16px;
+	color: #232323;
+	margin: 0;
+	padding: 0
+}
+a {
+	text-decoration: none;
+}
+option, optgroup, select, text {
+	font-family: 'toyota_textregular';
+	font-size: 16px;
+}
+.inner-page-main {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+.img-responsive {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+/*.container {
+	width: 85%;
+	float: right;
+	display: table;
+	margin: 0;
+	padding: 0;
+}*/
+.row {
+	width: 98.3%;
+	margin: 5px auto;
+	padding: 0 0px;
+	display: table;
+}
+.master-page-banner {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+/*=============================
+		INDEX
+==============================*/
+
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'toyota_displayregular';
+	font: 14px Verdana, Helvetica, Arial, sans-serif;
+	line-height: 1.7;
+}
+ul, ol, dl {
+	list-style: none;
+	font-family: 'toyota_displayregular';
+}
+a {
+	color: #363636;
+	text-decoration: none;
+	font-family: 'toyota_displayregular';
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+	font-family: 'toyota_displayregular';
+}
+img {
+	border: 0;
+ background:url(http://dealer.toyotabharat.com/dealerV10/images/loader.gif no-repeat center;
+);
+	background-size: 20px !important;
+}
+.logo {
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px solid #ccc;
+}
+.logo img {
+	width: 100%;
+	margin: 0 auto;
+	border: 0;
+}
+header {
+	width: 15%;
+	position: fixed;
+	background: #fff;
+	height: 100%;
+	z-index: 100000;
+	padding-top: 10px;
+}
+footer {
+	margin-top: 30px;
+}
+.header-box {
+	width: 100%;
+	display: table;
+	position: relative;
+}
+ul.nav-list {
+	padding: 0;
+}
+.menu a#pull {
+	display: none;
+}
+ul.nav2 {
+	width: 100%;
+	position: relative;
+	display: table;
+}
+ul.nav2 li {
+	text-align: center;
+	background: #aaaaaa;
+	float: left;
+	width: 100%;
+}
+ul.nav2 li a {
+	width: 100%;
+	height: 25px;
+	margin: 0;
+	padding: 15px 0 0 0;
+	background-color: #aaaaaa;
+	border: none;
+	color: #ffffff;
+	text-shadow: 0px 1px 1px #333333;
+	border-bottom: 1px solid #fff;
+	text-align: left;
+	text-indent: 51px;
+	position: static;
+	float: left;
+	line-height: 1;
+}
+ul.nav2 li a:hover {
+	background-color: #eb0a1e
+}
+a.contact-us {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/contact-us.png) no-repeat 10% 50% #aaaaaa;
+}
+a.test-drive {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/test-drive.png) no-repeat 10% 50% #aaaaaa;
+}
+a.buy-now {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/buy-now.png) no-repeat 10% 50% #aaaaaa;
+}
+a.brochure {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/brochure.png) no-repeat 10% 50% #aaaaaa;
+}
+a.price-list {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/price-list.png) no-repeat 10% 50% #aaaaaa;
+}
+.social-links {
+	display: block;
+}
+.social-links img {
+	width: 100%;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+.social-links:hover {
+	opacity: 0.7;
+}
+ul.social {
+	display: table;
+	width: 80%;
+	padding: 0 10%;
+	margin: 10px 0;
+	text-align: center;
+}
+ul.social li {
+	width: 17%;
+	margin: 2% 4%;
+	display: inline-block;
+}
+.search {
+	display: table;
+	width: 90%;
+	padding: 9px 0%;
+	border: 1px solid #ccc;
+	border-width: 1px 0px 1px 0px;
+	text-align: center;
+	margin: 0 auto;
+}
+.toyotaindia{
+	display: table;
+	width: 90%;
+	padding: 9px 0%;
+	border: 1px solid #ccc;
+	border-width: 0px 0px 1px 0px;
+	text-align: center;
+	margin: 0 auto;
+	}
+.toyotaind-icon {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/toyota.png);
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: 14px;
+	color: #797979;
+	font-size: 16px;
+}
+.item-car a {
+	position: relative;
+	display: table;
+	width: 100%;
+}
+.item-car a span {
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	padding-left: 10px;
+}
+span.model-decoration.hybrid {
+	background: #00a0f0;
+	position: absolute;
+	bottom: 15px;
+	color: #fff;
+	padding: 2px 3px;
+	border-radius: 3px;
+	font-size: 10px;
+}
+.search-icon {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/search.png);
+	width: 19px;
+	height: 19px;
+	display: block;
+	margin: 0 auto;
+}
+.container {
+	position: relative;
+	margin: auto;
+	float: left;
+}
+ @media (min-width: 768px) and (max-width: 1024px) {
+.logo img {
+	margin-top: 7px;
+}
+}
+@media (min-width: 1401px) {
+/* changed the width from 85 to 100
+and left is commented
+*/	
+.container {
+	width: 100%;
+	top: 0;
+	/*left: 15%;*/
+}
+}
+@media (min-width: 1800px) {
+.container {
+	width: 1584px;
+	top: 0;
+	left: 216px;/*
+	-moz-transform: translate3d(0, 0, 0) !important;
+	-ms-transform: translate3d(0, 0, 0) !important;
+	-o-transform: translate3d(0, 0, 0) !important;
+	-webkit-transform: translate3d(0, 0, 0) !important;
+	transform: translate3d(0, 0, 0) !important;
+	*/
+}
+}
+.container:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 10px;
+	box-shadow: inset 6px 0 14px -6px rgba(0, 0, 0, 0.3);
+	z-index: 10;
+	border-left: none;
+}
+@media only screen and (min-width :769px)and (max-width :1600px) {
+header a#pull {
+	display: none;
+}
+.model-images {
+	overflow-y: hidden !important;
+}
+}
+@media only screen and (max-width : 768px) {
+.footer-socila-links {
+	width: 200px !important;
+	float: none !important;
+	margin: auto;
+	display: table;
+}
+.footer-links {
+	width: 100% !important;
+	margin-bottom: 10px;
+}
+.logo {
+	width: 230px;
+	float: left;
+	margin: auto;
+	position: absolute;
+	height: 100%;
+}
+ul.nav-list {
+	display: none;
+	width: 100%;
+	float: left;
+	background: #fff;
+}
+header a#pull:after {
+	content: "";
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/nav-icon.png) no-repeat center;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
+ul.nav2 li {
+	width: 20%;
+	float: left;
+}
+ul.nav2 li a {
+	padding: 31px 0 0 0;
+	text-indent: 0;
+	text-align: center;
+	border: 1px solid #fff;
+	width: 100%;
+	border-width: 0px 0px 0px 1px;
+}
+a.contact-us {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/contact-us.png) no-repeat 50% 12% #aaaaaa;
+}
+a.test-drive {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/test-drive.png) no-repeat 50% 12% #aaaaaa;
+}
+a.buy-now {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/buy-now.png) no-repeat 50% 12% #aaaaaa;
+}
+a.brochure {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/brochure.png) no-repeat 50% 12% #aaaaaa;
+}
+a.price-list {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/price-list.png) no-repeat 50% 12% #aaaaaa;
+}
+.header-box {
+	border-bottom: 1px solid #ccc;
+	height: 84px;
+}
+header a#pull {
+	display: block;
+	width: 12%;
+	position: absolute;
+	background: #fff;
+	color: #fff;
+	height: 100%;
+	right: 0;
+}
+.submenu {
+	left: 0 !important;
+	width: 100% !important;
+	position: relative !important;
+}
+.submenu2 {
+	left: 0 !important;
+	width: 100% !important;
+	position: relative !important;
+	display: none;
+}
+.model-images {
+	left: 0 !important;
+	width: 100% !important;
+	height: 115% !important;
+}
+}
+@media (min-width: 1025px) {
+.nav {
+	padding: 0;
+}
+.nav__link {
+	font-size: 14px;
+}
+}
+.nav__link {
+	display: block;
+	text-align: center;
+	padding: 10px 0;
+	color: #6c6e72;
+	line-height: 1.3;
+	font-size: 14px;
+}
+.nav__link:hover {
+	background: #eb0a1e;
+	color: #fff;
+}
+.submenu {
+	display: none;
+	left: 100%;
+	position: absolute;
+	top: 0;
+	background: #eb0a1e;
+	height: 100%;
+	width: 90%;
+	box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+}
+.submenu2 {
+	display: none;
+	left: 100%;
+	position: absolute;
+	top: 0;
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+}
+.submenu:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 10px;
+	box-shadow: inset 6px 0 14px -4px rgba(0, 0, 0, 0.2);
+}
+.sub_nav__link {
+	color: #fff;
+	padding: 8px 0;
+	line-height: 1.3;
+	text-align: center;
+	width: 100%;
+	display: block;
+	font-size: 14px;
+}
+.sub_nav__link-sub {
+	display: block;
+	text-align: center;
+	padding: 8px 0;
+	color: #6c6e72;
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	line-height: 1.3;
+	font-size: 14px;
+}
+.sub_nav__link-sub:hover {
+	background: #eb0a1e;
+	color: #fff;
+}
+.sub_nav__link:hover {
+	background: #fff;
+	color: #363636;
+}
+.nav__sub__list {
+	padding: 90px 0 0 0;
+}
+.submenu-list:hover .submenu {
+	display: block;
+}
+.submenu-list2:hover .submenu2 {
+	display: block;
+}
+.model-images {
+	width: 300%;
+	left: 100%;
+	position: absolute;
+	height: 150%;
+	top: 0;
+	display: none;
+	box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	 background: #fff;
+}
+@media screen and (max-width:1366px) and (min-width:1024px){
+.submenu:hover .model-images {
+	display: block;
+	background: #fff;
+}
+}
+.show-model{
+	display:block;	
+	}
+.item-car {
+	width: 28%;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+.item-car img {
+	width: 100%;
+	border: 0;
+}
+ @media (max-width:767px) {
+header {
+	height: 140px !important;
+}
+.logo img {
+	vertical-align: middle;
+	top: 0;
+	bottom: 0;
+	margin: 11px 15px;
+}
+}
+ @media (max-width:1024px) {
+header {
+	width: 100% !important;
+	height: 100px;
+	z-index: 1000000;
+	-moz-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+	padding: 0;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+.model-imgaes {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 150%;
+	background: #fff;
+}
+}
+ @media screen and (min-width: 769px) and (max-width: 1024px) {
+.menu {
+	display: table;
+	float: left;
+	width: 100%;
+	/* margin: 10px 0; */
+	position: absolute;
+	bottom: 0;
+}
+.header-box {
+	width: 24%;
+}
+ul.nav2 {
+	width: 75%;
+	float: left;
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+ul.nav2 li {
+	text-align: center;
+	background: #aaaaaa;
+	float: left;
+	width: 20%;
+}
+
+ul.nav2 li a {
+	padding: 10px 0 0 0;
+	text-indent: 40px;
+	border: 1px solid #fff;
+	width: 100%;
+	border-width: 0px 0px 0px 1px;
+}
+ul.social {
+	width: 14%;
+	position: absolute;
+	right: 102px;
+	margin: 0;
+	padding: 0;
+	bottom: 4px;
+}
+.search {
+	position: absolute;
+	width: 50px;
+	right: 48px;
+	bottom: 0px;
+	border-width: 0 1px 0 1px;
+	margin: 0;
+}
+.toyotaindia{
+	position:absolute;
+	right:0;
+	width: 50px;
+	overflow: hidden;
+	bottom: -7px;
+	text-indent: 900px;
+	height: 20px;
+	padding: 0;
+	border: 0;
+	padding: 0;
+}
+.logo {
+	width: 100%;
+	border-bottom: 0;
+}
+ul.nav-list li {
+	float: left;
+	display: inline-block;
+}
+.nav__link {
+	padding: 8px 12px;
+	font-size: 14px;
+}
+.submenu {
+	display: none;
+	left: 0;
+	top: auto;
+	position: absolute;
+	background: #eb0a1e;
+	height: auto;
+	width: 100%;
+	right: 0;
+	box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+}
+.sub_nav__link {
+	color: #fff;
+	padding: 8px 12px;
+	line-height: 1.3;
+	text-align: center;
+	width: auto;
+	display: block;
+	font-size: 14px;
+	float: left;
+}
+.nav__sub__list {
+	padding: 10px 0;
+	float: left;
+}
+.model-images {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 660%;
+	overflow-y: scroll !important;
+}
+.submenu:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 10px;
+	box-shadow: inset rgba(0, 0, 0, 0.2) 0px 3px 5px 0px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 0px 3px 5px 0px;
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.2) 0px 3px 5px 0px;
+}
+.item-car {
+	width: 18%;
+	margin-left: 48px;
+	margin-bottom: 25px;
+}
+section.call-btn {
+	display: none;
+}
+}
+ @media screen and (min-width: 481px) and (max-width: 768px) {
+.item-car {
+	width: 25% !important;
+	margin-left: 7%;
+	margin-bottom: 30px;
+}
+.submenu {
+	background: #eb0a1e;
+}
+.nav__link {
+	font-size: 18px;
+}
+.sub_nav__link {
+	font-size: 18px;
+}
+.nav__sub__list {
+	padding: 10px 0;
+}
+.submenu:after {
+	box-shadow: none;
+}
+}
+ @media screen and (min-width: 320px) and (max-width:480px) {
+.footer-links {
+	float: none !important;
+	width: 100% !important;
+}
+.footer-socila-links {
+	width: 50% !important;
+	float: none !important;
+	margin: auto;
+	text-align: center;
+	margin-top: 8px;
+}
+.item-car {
+	width: 40% !important;
+}
+.submenu {
+	background: #EB0A1E;
+}
+.nav__sub__list {
+	padding: 10px 0;
+}
+.submenu:after {
+	border: none;
+	box-shadow: none;
+}
+.fb {
+	width: 100% !important
+;}
+.tw {
+	width: 100% !important;
+	margin-top:25px;
+	
+}
+}
+@media screen and (min-width: 320px) and (max-width:768px) {
+ul.nav2 {
+	float: left;
+	position: absolute;
+}
+.menu {
+	float: left;
+	width: 100%;
+	position: absolute;
+	margin-top: 56px;
+}
+ul.social {
+	display: none;
+}
+.search,.toyotaindia {
+	display: none;
+}
+}
+.contact-sticky {
+	overflow: hidden;
+	position: fixed;
+	bottom: 10%;
+	right: 0;
+	width: 235px;
+	height: 46px;
+	z-index:100;
+}
+.call-btn {
+	cursor: pointer;
+	right: 0;
+	-webkit-transform: translate(80%, 0);
+	-moz-transform: translate(80%, 0);
+	-o-transform: translate(80%, 0);
+	-ms-transform: translate(80%, 0);
+	bottom: 1em;
+	background-color: #E20000;
+	height: 45px;
+	width: auto;
+	line-height: 45px;
+	padding-left: 35px;
+	-moz-border-radius-bottomleft: 50px;
+	border-bottom-left-radius: 50px;
+	-moz-border-radius-topleft: 50px;
+	border-top-left-radius: 50px;
+	overflow: hidden;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+}
+.call-btn-active {
+	-webkit-transform: translate(0, 0);
+	-moz-transform: translate(0, 0);
+	-o-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+}
+.call-btn:after {
+	content: "";
+	position: absolute;
+	left: 9px;
+	top: 7px;
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/call-0bg.png) 0 50% no-repeat;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+}
+.call-btn span {
+	color: #fff;
+	font-size: 18px;
+	padding: 0 10px;
+}
+.section-head {
+	width: 100%;
+	display: block;
+	margin: 20px 0;
+}
+.text-heading {
+	margin: 0 30px;
+	display: block;
+
+	background-repeat: repeat-x;
+}
+.head-text {
+	font-size: 24px;
+	padding-left: 7px;
+	border-left: 3px solid #000;
+	display: table;
+	background: #fff;
+	padding-right: 10px;
+	font-family: 'toyota_textregular';
+	line-height: 1;
+	font-weight: normal;
+}
+.recommended {
+	width: auto;
+	float: none;
+	position: relative;
+	padding: 10px 35px;
+}
+.span-block-slider-main {
+	display: block;
+padding:
+}
+.footer--social-feeds {
+	display: table;
+	width: 100%;
+	padding: 20px 0 50px 0;
+}
+.fb {
+	width: 50%;
+	float: left;
+}
+.tw {
+	width: 50%;
+	float: left;
+}
+.fb-wrap {
+	padding: 0 30px;
+	display: block;
+	/* height: 570px; */
+	border-right: 1px solid #eee;
+}
+.tw-wrap {
+	padding: 0 30px;
+	display: block;
+	/* height: 570px; */
+}
+.footermain-links {
+	width: auto;
+	padding: 0 30px;
+}
+.footer-links {
+	width: 80%;
+	float: left;
+}
+.footer-links-social {
+	width: 100%;
+	display: table;
+	background: #f1eded;
+	padding: 14px 0;
+	border-bottom: 1px solid #ccc;
+}
+.footermain-links a {
+	border-right: 1px solid #A2A2A2;
+	padding-right: 7px;
+	color: #8d8b8b;
+}
+.footer-socila-links {
+	width: 20%;
+	float: left;
+}
+.footer-social {
+	display: table;
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+}
+ul.footer-social li {
+	width: 17%;
+	margin: 0% 4%;
+	display: inline-block;
+}
+.footer__primary.cf {
+	width: 100%;
+	display: table;
+	background: #ededed;
+	padding: 12px 0 12px 0;
+}
+.footer-col__title {
+	color: #000;
+	font-size: 28px;
+	font-weight: normal;
+}
+.footer__dist {
+	padding: 0 30px;
+}
+.footer-col__time {
+	color: #A11A1A;
+	min-width: 110px;
+	display: inline-block;
+}
+.footer-col__link {
+	font-size: 14px;
+	padding: 5px 0;
+	display: block;
+}
+.footer-col__copy {
+	color: #818181;
+}
+.footer-col__link:hover {
+	text-decoration: underline;
+}
+.footer-sitemap {
+	background: #f1eded;
+	display: table;
+	float: none;
+	width: 100%;
+	padding: 15px 0;
+}
+.site-map-list {
+	width: 15%;
+	margin-right: 5px;
+	float: left;
+}
+.site-map-link-wrap {
+	float: left;
+	width: 70%;
+}
+.site-map-wraper {
+	padding: 0 18px;
+}
+.sitemap-link-head {
+	font-weight: 700;
+	margin: 5px 0;
+}
+.site-map-link a {
+	color: #8d8b8b;
+}
+.footer-contat-details {
+	float: left;
+	width: 100%;
+}
+.address-details {
+	padding-left: 25px;
+	display: block;
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/map20x23.png) no-repeat;
+}
+.address-head {
+	margin: 5px 0;
+	font-weight: 700;
+}
+.address-link {
+	color: #8d8b8b;
+}
+.contact-link {
+	padding-left: 25px;
+	margin: 6px 0;
+	color: #8d8b8b;
+}
+.contact-details {
+	margin: 15px 0;
+}
+.ph-link {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/telephone20x23.png) no-repeat;
+}
+.service {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/service20x23.png) no-repeat;
+}
+.fax-link {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/fax20x23.png) no-repeat;
+}
+.helpline-link {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/phone20x23.png) no-repeat;
+}
+.email-link {
+	background: url(http://dealer.toyotabharat.com/dealerV10/images/mail20x23.png) no-repeat;
+}
+@media screen and (min-width: 200px) and (max-width:900px) {
+.footer-sitemap {
+	display: none;
+}
+}
+ @media (max-width: 767px) {
+.container {
+	position: relative;
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin: 140px 0 0 0;
+	-moz-transition: -moz-transform 0.3s ease-in-out;
+	-o-transition: -o-transform 0.3s ease-in-out;
+	-webkit-transition: -webkit-transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
+	background: #fff;
+	z-index: 100;
+}
+.container:after {
+	display: none;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+.container {
+	margin: 100px 0 0 0;
+	width: 100%;
+}
+
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+.site-map-link-wrap {
+	float: left;
+	width: 62% !important;
+}
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+.site-map-link-wrap {
+	float: left;
+	width: 71%;
+}
+}
+/* changed the width from 85 to 100
+and left is commented
+*/	  
+@media (min-width: 1025px) and (max-width: 1400px) {
+.container {
+	width: 100%;
+	top: 0;
+	/*left: 15%;*/
+}
+}
+@media (min-width: 1401px) {
+.container {
+	width: 85%;
+	top: 0;
+	left: 15%;
+}
+}
+@media (min-width: 1800px) {
+.container {
+	width: 1584px;
+	top: 0;
+	left: 15%;/*
+	-moz-transform: translate3d(0, 0, 0) !important;
+	-ms-transform: translate3d(0, 0, 0) !important;
+	-o-transform: translate3d(0, 0, 0) !important;
+	-webkit-transform: translate3d(0, 0, 0) !important;
+	transform: translate3d(0, 0, 0) !important;
+	*/
+}
+header a#pull {
+	display: none;
+}
+}
+ #red-scrollbar::-webkit-scrollbar-track {
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ background-color: #F5F5F5;
+}
+ #red-scrollbar::-webkit-scrollbar {
+ width: 10px;
+ background-color: #F5F5F5;
+}
+ #red-scrollbar::-webkit-scrollbar-thumb {
+ background-color: #E61E30;
+}
+fb-col {
+	width: 100%;
+}
+.fb-wrap iframe {
+	width: 100% !important;
+}
+/*=============================
+		ABOUT US STYLE
+==============================*/
+
+.desktop-banner {
+	display: block;
+}
+.mobile-banner {
+	display: none;
+}
+ @media (max-width: 480px) {
+.desktop-banner {
+	/* display: none; */
+}
+.mobile-banner {
+	display: none;
+}
+}
+.sectiontitle {
+	background-position: center;
+	margin: 30px 0px 30px;
+	min-height: 20px;
+}
+.sectiontitle h2 {
+	font-size: 23px;
+	background: #fff;
+	display: inline;
+	color: #232323;
+	padding-right: 10px;
+	font-family: 'toyota_displaybold';
+	padding-left: 10px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.dealer-mission-left {
+	text-align: left;
+	width: 70%;
+	float: left;
+}
+.right-image {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 25%;
+	float: right;
+	display: table;
+	padding: 5px;
+}
+.dealer-princials {
+	width: 95%;
+	margin: 0 auto;
+	display: table;
+}
+.dealer-princials-block {
+	display: inline-block;
+	margin: 30px auto;
+	width: 50%;
+	float: left;
+}
+.dealer-princials-img {
+	margin: 0 auto;
+	display: inline-block;
+	float: left;
+	width: 28%;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	padding: 5px;
+}
+.dealer-princials-text {
+	text-align: left;
+	display: inline-block;
+	float: left;
+	margin: 10% 0 0 6%;
+	border-left: 3px solid #797878;
+	padding: 0px 15px;
+	width: 54%;
+}
+.dealer-princials-text h4 {
+	font-family: 'toyota_displaybold';
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+.dealer-princials-text h5 {
+	text-transform: uppercase;
+	font-weight: normal;
+	padding: 0;
+	font-size: 16px;
+	margin: 2px 0 0 0;
+}
+.service-video {
+	margin: 30px 0 15px 0;
+	width: 100%;
+	display: block;
+}
+ @media (max-width: 799px) {
+.dealer-mission-left {
+	text-align: left;
+	width: 100%;
+	float: left;
+	margin-bottom: 5%;
+}
+.right-image {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 80%;
+	float: initial;
+	display: table;
+	padding: 5px;
+	margin: 0px auto;
+	text-align: center;
+}
+}
+@media (max-width: 1149px) and (min-width:980px) {
+.dealer-princials-text {
+	margin: 5% 0 0 5%;
+}
+}
+@media (max-width: 979px) and (min-width:830px) {
+.dealer-princials-text {
+	margin: 5% 0 0 5%;
+}
+}
+@media (max-width: 829px) and (min-width:700px) {
+.dealer-princials-img {
+	display: table;
+	float: none;
+
+
+	width: 40%;
+}
+.dealer-princials-text {
+	text-align: center;
+	display: table;
+	float: none;
+	margin: 25px auto;
+	padding: 0;
+	width: 78%;
+	border: 0;
+}
+.dealer-princials-text h4 {
+	border-bottom: 1px solid #3d3d3d;
+}
+}
+ @media (max-width: 700px) {
+.dealer-princials-block {
+	display: table;
+	margin: 30px auto;
+	width: 98%;
+	float: none;
+}
+.dealer-princials-img {
+	display: table;
+	float: none;
+	width: 40%;
+}
+.dealer-princials-text {
+	text-align: center;
+	display: table;
+	float: none;
+	margin: 25px auto;
+	padding: 0;
+	width: 78%;
+	border: 0;
+}
+.dealer-princials-text h4 {
+	border-bottom: 1px solid #3d3d3d;
+}
+}
+/*=============================
+		APPLY LOAN
+==============================*/
+.selcet-city-main {
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+	background-color: #DEE3E4;
+    height: 50px;
+    padding: 16px 0px 0px 0px;
+    border-radius: 2px;
+}
+.info-head {
+	font-size: 20px;
+	font-weight: normal;
+	margin: 30px 0px 0;
+}
+.form-container {
+	width: 100%;
+	margin: 0 auto;
+}
+.form-head {
+	margin: 30px 0 30px;
+	padding: 10px;
+	background-color: #596c72;
+	color: #fff;
+}
+.form-body-row {
+	margin: 10px 10px 0px;
+	width: 98%;
+	display: table;
+}
+.form-labels {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	line-height:0;
+}
+.form-controls {
+	display: block;
+	height: 34px;
+	padding: 0px 12px;
+	font-size: 16px;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	outline: 0;
+	width: 100%;
+}
+.text {
+	height: 20px;
+	padding: 6px 12px;
+	width: 95%;
+}
+.form-body-row-left {
+	display: inline-block;
+	width: 30%;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	margin: 0px 0 0 20px;
+	font-size:18px;
+}
+.form-body-row-right {
+	display: inline-block;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+.text-area {
+	resize: vertical;
+	width: 95%;
+}
+.captcha {
+	width: auto;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 15px;
+}
+.submit-btn {
+	float: right;
+	width: 150px;
+}
+.form-button {
+	background: #f74d4d;
+	padding: 5px 10px;
+	width: 100%;
+	border: 0;
+	margin: 0;
+	border-radius: 3px;
+	outline: 0;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'toyota_textregular';
+	cursor: pointer;
+}
+.form-button:hover {
+	background: #c22323;
+}
+ @media (max-width: 799px) {
+.form-body-row-left {
+	display: table;
+	width: 100%;
+	text-align: center;
+}
+.form-body-row-right {
+	display: table;
+	width: 80%;
+	/* float: left; */
+	margin: 10px auto;
+}
+}
+/*=======================================
+   BROCHURE REQUEST
+=======================================*/
+
+.i-wish-check-box {
+	width: 100%;
+	display: table;
+	margin: 0 0 10px;
+	padding: 0;
+}
+.check-box-style {
+	display: inline-table;
+	width: 4%;
+	height: auto;
+}
+.check-box-label {
+	display: inline-table;
+	width: 92%;
+	margin-left: 5px;
+}
+.disclaimer {
+	width: 100%;
+	margin: 0 auto;
+}
+.disclaimer h3 {
+	font-size: 18px;
+	font-family: 'toyota_textregular';
+	font-weight: normal;
+	border-bottom: 1px solid #3d3d3d;
+	padding: 0 0 8px;
+}
+/*=======================================
+   BUY NOW REQUEST
+=======================================*/
+
+.form-body-radio {
+	width: auto;
+	margin: 0 15px 0 0px;
+	display: inline-table;
+	line-height: 50px;
+}
+/*=======================================
+   PROMOTIONS
+=======================================*/
+
+.row-left {
+	width: 50%;
+	text-align: center;
+	display: inline-table;
+}
+.row-right {
+	width: 50%;
+	text-align: center;
+	display: inline-table;
+}
+.promo-three-block {
+	width: 32%;
+	display: inline-table;
+	margin: 0 auto;
+}
+.promotion-main {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+ @media (max-width: 640px) {
+.promo-three-block {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	float: none;
+}
+}
+.promotion-block {
+	width: 90%;
+	margin: 0 auto;
+	padding: 7px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.promotion-img {
+	margin: 0 auto;
+	text-align: center;
+}
+.promtion-link {
+	margin: 20px 0px 10px;
+	text-align: left;
+	display: table;
+}
+.promtion-link a {
+	color: #38ade4;
+	font-size: 18px;
+	display: inline-table;
+}
+.promtion-link i {
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.promtion-link a:hover {
+	color: #0d7bae;
+}
+ @media (max-width: 640px) {
+.row-left {
+	width: 100%;
+	text-align: center;
+	display: inline-table;
+	margin-bottom: 0%;
+}
+.row-right {
+	width: 100%;
+	text-align: center;
+	display: inline-table;
+}
+.promotion-block {
+	margin-bottom: 30px;
+}
+}
+/*=======================================
+   FINANCE AND INSURANCE
+=======================================*/
+
+.promotion-block p {
+	margin: 25px 0 0px;
+	text-align: left;
+	min-height: 168px;
+}
+.row-right h4 {
+	font-family: 'toyota_textbold';
+	font-weight: normal;
+	font-size: 18px;
+	color: #3d3d3d;
+	border-bottom: 1px solid #3d3d3d;
+	padding-bottom: 5px;
+	margin: 5px 0 15px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.row-left h4 {
+	font-family: 'toyota_textbold';
+	font-weight: normal;
+	font-size: 18px;
+	color: #3d3d3d;
+	border-bottom: 1px solid #3d3d3d;
+	padding-bottom: 5px;
+	margin: 5px 0 15px;
+	text-align: left;
+	text-transform: uppercase;
+}
+ @media (max-width: 1072px) and (min-width:900px) {
+.promotion-block p {
+	margin: 25px 0 0px;
+	text-align: left;
+	min-height: 210px;
+}
+}
+@media (max-width: 899px) and (min-width:700px) {
+.promotion-block p {
+	margin: 25px 0 0px;
+	text-align: left;
+	min-height: 273px;
+}
+}
+@media (max-width: 699px) and (min-width:641px) {
+.promotion-block p {
+	margin: 25px 0 0px;
+	text-align: left;
+	min-height: 315px;
+}
+}
+/*=======================================
+   DRIVING SCHOOL
+=======================================*/
+
+.silent-feature-block {
+	padding: 30px;
+	margin: 0;
+}
+.sailent-feature-img {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.silent-feature-block p {
+	text-align: left;
+	margin: 15px 0px 0px 10px;
+}
+.heightlights {
+	background-color: #f6f5f5;
+	padding: 15px;
+	display: inline-table;
+}
+.heightlights ol {
+	padding: 0;
+	margin: 0;/* float: left; *//* width: 100%; *//* display: table; */
+}
+.heightlights li {
+	list-style: none;
+	text-align: left;
+	float: left;
+	margin: 4px 15px;
+}
+.heightlights li i {
+	margin-right: 10px;
+	vertical-align: middle;
+	text-align: center;
+}
+.mode-study {
+	width: 100%;
+	margin: 30px auto;
+	display: table;
+}
+.mode-study-block {
+	width: 50%;
+	display: inline-table;
+}
+.mode-study-block li {
+	list-style: none;
+	margin-bottom: 5px;
+	min-height: 55px;
+}
+.mode-study-block img {
+	max-width: 85px;
+}
+.mode-study-block h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'toyota_textbold';
+	font-size: 18px;
+	padding: 0;
+}
+.driving-school-contact {
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	display: table;
+	width: 96%;
+	padding: 2% 2%;
+}
+.head-driving-school-contact h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'toyota_textbold';
+	font-size: 20px;
+	padding: 35px;
+	margin: 0;
+	border-right: 3px solid;
+	width: 80%;
+}
+.bottom-driving-school-contact h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'toyota_textbold';
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	margin-top: 0;
+}
+.head-driving-school-contact {
+	text-align: center;
+	width: 60%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.bottom-driving-school-contact {
+	text-align: left;
+	width: 40%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.driving-school-contact-main {
+	display: table;
+	width: 100%;
+}
+ @media (max-width: 499px) {
+.mode-study-block {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	display: inline-table;
+}
+}
+ @media (max-width: 900px) and (min-width:790px) {
+.head-driving-school-contact {
+	text-align: center;
+	width: 45%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.bottom-driving-school-contact {
+	text-align: left;
+	width: 50%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.head-driving-school-contact h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'toyota_textbold';
+	font-size: 20px;
+	padding: 35px;
+	margin: 0;
+	border-right: 3px solid;
+	width: 68%;
+}
+}
+ @media (max-width: 789px) and (min-width:700px) {
+.head-driving-school-contact {
+	text-align: center;
+	width: 45%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.bottom-driving-school-contact {
+	text-align: left;
+	width: 50%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.head-driving-school-contact h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'toyota_textbold';
+	font-size: 20px;
+	padding: 35px;
+	margin: 0;
+	border-right: 3px solid;
+	width: 68%;
+}
+}
+ @media (max-width: 699px) {
+.head-driving-school-contact {
+	text-align: center;
+	width: 100%;
+	display: block;
+	vertical-align: middle;
+}
+.bottom-driving-school-contact {
+	text-align: center;
+	width: 100%;
+	display: block;
+	vertical-align: middle;
+	margin: 30px auto;
+}
+.head-driving-school-contact h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'toyota_textbold';
+	font-size: 20px;
+	padding: 20px 0;
+	margin: 0 auto;
+	border-right: 0;
+	border-bottom: 3px solid;
+	width: 73%;
+}
+}
+/*=============================
+    ACCESSORIES FILTER STYLE
+==============================*/
+.iframe-filter {
+	border: 0;
+	width: 100%;
+}
+.iframe-outer {
+	width: 100%;
+}
+ @media (max-width: 1000px) and (min-width:800px) {
+.iframe-filter {
+	border: 0;
+	width: 100%;
+}
+}
+.zitem {
+	width: 300px;
+
+	height: 104px;
+	border: 1px solid #ccc;
+	margin: 5px 5px 5px 0;
+	overflow: hidden;
+	position: relative;
+	display: inline-table;
+}
+.zitem .caption {
+	width: 100%;
+	height: 30px;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	display: none;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+.zitem .caption a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	padding: 5px;
+	display: block;
+	font-weight: normal;
+	text-align: left;
+}
+.zitem .caption i {
+}
+.zitem img {
+	border: 0;
+	width: 100%;
+	position: absolute;
+	text-align: left;
+	left: 0;
+}
+.accessories-row {
+	margin: 0 auto;
+	display: table;
+	width: 100%;
+	text-align: center;
+}
+ @media (min-width: 630px) and (max-width: 976px) {
+.zitem {
+	width: 198px;
+	height: 68px;
+}
+}
+/*=============================
+    CONTACT US
+==============================*/
+
+.contact-us-main {
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+}
+.contact-us-main-left {
+	width: 50%;
+	display: inline-table;
+	float: left;
+}
+.contact-us-address {
+	width: 100%;
+	margin: 0;
+}
+.contact-us-address h2 {
+	font-family: 'toyota_displaybold';
+	font-weight: normal;
+	color: #E4241F;
+	margin: 0;
+	padding: 0;
+}
+.contact-us-address li {
+	list-style: none;
+	margin: 10px 0;
+	color: #3d3d3d;
+}
+.contact-us-address p {
+	color: #3d3d3d;
+	margin-left: 23px;
+	font-size: 14px;
+}
+.contact-us-address i {
+	color: #3d3d3d;
+	margin-right: 15px;
+}
+.contact-us-main-right {
+	width: 50%;
+	display: inline-table;
+	float: left;
+}
+.contact-us-shoroom {
+	padding: 6px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.grid_2 {
+	width: 45%;
+	display: inline-table;
+	padding: 1%;
+	text-align: center;
+	margin-bottom: 20px;
+	float: none;
+}
+.contact-us-map {
+	width: 100%;
+	margin: 30px auto;
+	display: inline-table;
+	
+	
+}
+
+#gmap_canvas {
+	pointer-events:none;
+}
+.contact-us-map-inner {
+	overflow: hidden;
+	padding: 6px;
+	border: 1px solid #ccc;
+	
+}
+.contact-person-main {
+	width: 100%;
+	margin: 30px auto;
+}
+.contact-person-row {
+	width: 100%;
+	display: table;
+	background-color: #EEE;
+}
+.contact-person-left {
+	width: 100%;
+	display: inline-table;
+	float: left;
+}
+.contact-person-left-text {
+	width: 64%;
+	float: left;
+	text-align: right;
+	margin-top: 4%;
+}
+.contact-person-left-text h2 {
+	font-family: 'toyota_displaybold';
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+.contact-person-left-text h4 {
+	text-transform: capitalize;
+	font-weight: normal;
+	padding: 0;
+	font-size: 16px;
+	margin: 2px 0 0 0;
+	text-transform: uppercase;
+}
+.contact-person-left-text p {
+	color: #0096ff;
+	margin-top: 6px;
+	font-size: 14px;
+}
+.contact-person-left-text a {
+	color: #0096ff;
+	margin-top: 20px;
+	display: block;
+}
+.contact-person-left-image {
+	float: right;
+	width: 30%;
+}
+.contact-person-center h2
+{
+	
+    font-family: 'toyota_displaybold';
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+.contact-person-right {
+	width: 100%;
+	display: inline-table;
+	float: right;
+}
+.contact-person-right-text {
+	float: right;
+	width: 64%;
+	text-align: left;
+	margin-top: 4%;
+}
+.contact-person-bg {
+	padding: 10px;
+	display: table-cell;
+}
+.contact-person-color-bg {
+	background-color: #EEE;
+	float: left;
+	width: 50%;
+}
+.contact-person-color-bg-altr {
+	float: right;
+	width: 50%;
+	background-color: #eee;
+}
+.contact-person-right-text h2 {
+	font-family: 'toyota_displaybold';
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+.contact-person-right-text h4 {
+	text-transform: capitalize;
+	font-weight: normal;
+	padding: 0;
+	font-size: 16px;
+	margin: 2px 0 0 0;
+	text-transform: uppercase;
+}
+.contact-person-right-text p {
+	color: #0096ff;
+	margin-top: 6px;
+	font-size: 14px;
+}
+.contact-person-right-text a {
+	color: #0096ff;
+	margin-top: 20px;
+	display: block;
+}
+.contact-person-right-image {
+	float: left;
+	width: 30%;
+}
+ @media (max-width: 890px) {
+.contact-person-right {
+	width: 100%;
+	display: inline-table;
+	float: none;
+	padding-top: 10px;
+}
+.contact-person-left {
+	width: 100%;
+	display: inline-table;
+	float: none;
+	padding-bottom: 10px;
+}
+.contact-us-main-left {
+	width: 100%;
+	display: block;
+	float: none;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.contact-us-main-right {
+	width: 100%;
+	display: block;
+	float: none;
+	text-align: center;
+}
+.contact-person-row {
+	background-color: #fff;
+}
+.contact-person-color-bg {
+	background-color: #EEE !important;
+	float: left;
+	width: 100%;
+}
+.contact-person-color-bg-altr {
+	float: right;
+	width: 100%;
+	background-color: #fff !important;
+}
+}
+ @media (max-width: 920px) and (min-width:620px) {
+.grid_2 {
+	width: 45%;
+	float:none;
+}
+}
+ @media (max-width: 619px) {
+.grid_2 {
+	width: 90%;
+	float:none;
+}
+}
+/*=============================
+    Q SERVICE
+==============================*/
+
+.section-one {
+	width: 100%;
+	display: table;
+	background-color: #eee;
+}
+.row-qservice {
+	padding: 0% 2% 2% 2%;
+	display: table;
+	margin-top: -10px;
+}
+.altr-pad {
+	padding: 2% 2% 2% 2%;
+	margin-top: 0px;
+}
+.q-service-left {
+	width: 30%;
+	float: left;
+}
+.row-qservice h3 {
+	font-family: 'toyota_displaybold';
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+.row-qservice p {
+	margin: 20px auto;
+	padding: 0;
+	font-size: 16px;
+}
+.button {
+	outline: 0;
+	border: 0;
+	margin: 0;
+	padding: 8px 9px;
+	font-family: 'toyota_displaybold';
+	font-weight: normal;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.button a { color:#fff;
+	font-family: 'toyota_displaybold';
+	font-weight: normal;
+	font-size: 14px;
+	}
+.button:hover {
+	opacity: .8;
+}
+.q-service-section-img {
+	width: 80%;
+	border: 6px solid;
+	border-radius: 200px;
+	text-align: center;
+	display: table;
+	margin: 0 auto;
+}
+.q-service-right {
+	width: 70%;
+	float: right;
+}
+.q-service-section-text {
+	margin-top: 8%;
+}
+.section-two {
+	background-color: #fff;
+	display: table;
+	width: 100%;
+}
+.q-service-left-altr {
+	width: 70%;
+	float: left;
+	text-align: right;
+}
+.q-service-right-altr {
+	width: 30%;
+	float: right;
+}
+.click-down-btn {
+	text-align: center;
+	top: 0;
+	padding: 0;
+	margin-top: -27px;
+}
+.click-down-btn li {
+	list-style: none;
+}
+ @media (max-width: 1200px) and (min-width:1000px) {
+.q-service-section-text {
+	margin-top: 5%;
+}
+}
+ @media (max-width: 1000px) and (min-width:780px) {
+.q-service-section-text {
+	margin-top: 0%;
+}
+.row-qservice {
+	padding: 6% 2% 6% 2%;
+}
+}
+ @media (max-width: 779px) {
+.q-service-left {
+	width: 100%;
+	float: none;
+	margin-top: 3%;
+}
+.q-service-right {
+	width: 80%;
+	float: none;
+	margin-bottom: 10%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.q-service-section-img {
+	width: 50%;
+	border: 6px solid;
+	border-radius: 200px;
+	text-align: center;
+	display: table;
+	margin: 0 auto;
+}
+.q-service-section-text {
+	margin-top: 5%;
+	text-align: center;
+}
+.q-service-left-altr {
+	width: 80%;
+	float: none;
+	text-align: center;
+	margin-left: auto;
+
+	margin-right: auto;
+	margin-bottom: 10%;
+
+}
+
+.q-service-right-altr {
+	width: 100%;
+	float: none;
+	margin: 3% 0 0% 0;
+}
+.flex-div {
+	display: flex;
+	flex-direction: column-reverse;
+}
+}
+.toyotabhart-logo {
+	position: absolute;
+	right: 2%;
+	top: 1%;
+	z-index: 1000;
+	width: 16%;
+}
+.toyotabhart-logo .img-toyotabhart {
+	width: 100%;
+}
+ @media screen and (min-width:320px) and (max-width:480px) {
+.toyotabhart-logo {
+	display: none;
+}
+}
+/*=======================================
+   UNIQUE 3S
+=======================================*/
+
+.unique-left {
+	text-align: left;
+	width: 80%;
+	float: left;
+}
+.unique-right-image {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 15%;
+	float: right;
+	display: table;
+	padding: 5px;
+}
+.unique-left-down {
+	text-align: left;
+	width: 70%;
+	float: left;
+}
+.unique-right-image-down {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 25%;
+	float: right;
+	display: table;
+	padding: 5px;
+}
+.unique3s-main {
+	width: 100%;
+	margin: 30px 0 10px 0;
+	display: table;
+}
+.unique3s-main-block {
+	display: block;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	padding: 4px;
+	margin: 0% 5% auto;
+	width: 20%;
+	float: left;
+}
+.unique3s-main-img {
+	width: 100%;
+	margin: 0 auto;
+}
+.unique3s-main-block h3 {
+	text-align: left;
+	margin: 5px 0 5px 5px;;
+	height: auto;
+	color:#000;
+	font-family: 'toyota_textbold';
+	font-weight: normal;
+	font-size: 18px;
+}
+.unique-flex {
+	width: 100%;
+	margin: 0 auto;
+}
+ @media (max-width: 799px) {
+.unique-left {
+	width: 70%;
+}
+.unique-right-image {
+	width: 25%;
+}
+}
+@media (max-width: 799px) and (min-width:641px) {
+.unique3s-mains-block {
+	display: block;
+	margin: 0 5px auto;
+	width: 30%;
+	float: left;
+}
+}
+@media (max-width: 640px) {
+.unique3s-main-block {
+	width: 50%;
+	float: none;
+	margin-top: 30px;
+	margin-left:auto; margin-right:auto;
+}
+.flex-unique {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.unique-left-down {
+	text-align: left;
+	width: 90%;
+	float: none;
+	margin: 0 auto;
+}
+.unique-right-image-down {
+	width: 50%;
+	float: none;
+	margin: 15px auto;
+}
+}
+ @media (max-width: 480px) {
+.unique3s-main-block {
+	width: 90%;
+	margin-top: 20px;
+}
+}
+.contact-carousel {
+	width:277px;
+	/* position:absolute; */
+	right:10px;
+	float: right;
+}
+
+
+/*  Google Custom Search Style  */
+
+@media screen and (min-width: 300px) and (max-width: 1024px) { 
+    
+.gsc-results-wrapper-overlay {
+  top:27% !important;
+  left:0 !important;
+  right:0 !important;
+  width:78% !important;
+  height:63% !important;
+ }
+ #searchBox {
+display:none;
+bdisplay:none;
+background:rgba(0, 0, 0, 0.75);
+position:absolute;top: 0;
+left:0%;
+right:0;
+bottom:0;
+height:100%;
+margin:0 auto;
+border-top: 3px solid #D00A0A;z-index: 1000;}
+}
+input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+    border-color: #666666;
+    background-color: #DA3333 !important;
+    background-image: none;
+    filter: none;
+}
+@media screen and (min-width: 1024px) and (max-width: 2000px) { 
+#searchBox {
+display:none;
+background:rgba(0, 0, 0, 0.75);
+position:absolute;
+top:0;left: 0;
+right:0;
+bottom:0;
+height:100%;
+margin:0 auto;
+border-left: 3px solid #D00A0A;z-index: 1000;}
+.gsc-results-wrapper-overlay {
+  top: 27% !important;
+  top:27% !important;
+  left:auto !important;
+  right:1% !important;
+  width:78% !important;
+  height:63% !important;
+ }
+}
+
+.close-btn-holder{
+	text-align:right;	
+	padding:0;
+	}
+.popup-close-btn{
+	background:url('http://dealer.toyotabharat.com/dealerV10/images/close-32x32.png') no-repeat;
+	width:32px;
+
+	height:32px;
+	background-position:50%;
+	background-size:contain;
+	border:0;
+	outline:0;
+	cursor:pointer;
+	opacity:0.5;
+	-webkit-opacity:0.6;
+	-moz-opacity:0.6;
+	}
+.search-area{
+	margin-top:5%;	
+	}
+	
+.search-area div{
+	background:none;
+	border:none;	
+	}
+.search-area input[type="text"]{
+	background:none !important;
+	border-bottom:1px solid #ccc !important;
+	padding:10px 0 !important;
+	color:#ddd;
+		 
+	}
+.gsc-results-wrapper-overlay{	
+	background:#fff !important;
+	}
+.footer-copyrights {
+    width: 100%;
+    display: table;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    color: #8D8B8B;
+    border: 1px solid #ccc;
+    border-width: 1px 0px;
+}
+.powered-by {
+    display: table-cell;
+}
+.coyright {
+    display: table-cell;
+    text-align: right;
+}
+@media screen and (min-width: 320px) and (max-width: 650px) { 
+.powered-by {
+    display: block;
+    text-align: center;
+}
+.coyright {
+    display: block;
+    text-align: right;
+    text-align: center;
+}
+.footer-copyrights a {
+    color: #8D8B8B;
+}
+}
+.footer-copyrights a {
+    color: #8D8B8B;
+}
+
+
+/*==============================================================
+ DEALER TIMINGS
+ ===============================================================*/
+
+.dealer-location-time{
+	display:table;
+	width: 100%;
+	table-layout: fixed;
+	}
+.select-city-half{
+	width: 72%;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	border-radius: 3px 0px 0px 3px;
+	box-sizing: border-box;
+	height: 90px;
+	/* float: left; */
+	padding-top: 0;
+	display: table-cell;
+	vertical-align: middle;
+	}
+.dealer-time{
+	background-color:#F1F1F1 !important;
+	height: 90px;
+	padding: 0px 5px 0 75px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	background:url(http://dealer.toyotabharat.com/dealerV10/images/clock-icon.png) no-repeat 3% 50%;
+	font-family: 'toyota_textregular';
+	display: table-cell;
+	vertical-align: middle;
+	}
+.time-head{
+	text-transform:uppercase !important;
+	font-size: 16px;
+	font-weight: 600;
+	}
+.contact-form-label{
+	width: 260px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	margin: 0px 0 0 20px;
+	font-size: 18px;
+	}
+.contact-form-select{
+	width: 45%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	}
+.work-time {
+    color: #51b986;
+    font-size: 22px;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: 'toyota_textregular';
+}
+.work-time > span{
+	font-size: 16px;
+	padding: 0px 2px;
+	font-family: 'toyota_textregular';
+	}
+.work-days{
+	font-size:12px;
+	text-transform:uppercase;
+	font-family: 'toyota_textregular';
+	font-weight: 600;
+	}
+.lunch-time{
+	color:#3d3d3d;
+	font-size:12px;
+	text-transform:uppercase;
+	font-family: 'toyota_textregular';
+	font-weight: 600;
+	}
+.lunch-time > span{
+	color: #51b986;
+	font-family: 'toyota_textregular';
+	padding: 0 5px;
+}
+ @media (max-width:1024px) {
+	.select-city-half{
+		width: 64%;
+		float: none;
+		display: table-cell;
+		text-align: center;
+		} 
+	.contact-form-label{
+		margin: 5px auto !important;
+		width: 100%;
+		text-align: center;
+		}
+	.contact-form-select{
+		width:90%;	
+		}
+	 }
+ @media (max-width:768px) {
+	.contact-form-label{
+		width:100%;
+		text-align:center;
+		margin: 0;
+		} 
+	.select-city-half{
+		width: 100%;
+		display: block;
+		}
+ 	.contact-form-select{
+		margin:0 auto;
+		display: block;
+		}
+	.dealer-time{
+		margin:0 auto;
+		display:block;
+		width: 325px;
+		margin-top: 10px;
+		}
+	 }
+
+ @media (max-width:584px) {
+	 .contact-form-select{
+			width:90%; 
+		 }
+	 .dealer-time{
+			width:100%;
+			padding: 0px 5px 0 30%;
+			background-position: 18% 50%;
+			}
+	 }
+	 
+@media (max-width:450px) {
+		 .dealer-time{
+			 background-position: 10% 50%;
+		 }
+	}
+	
+	/*=======================================
+   Used Cars
+=======================================*/
+
+
+
+.thumbnails {
+	width: 25%;
+	display: inline-table;
+	margin-bottom:20px;
+}
+.thumb-block {
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.thumb-img {
+	margin: 0 auto;
+	text-align: center;
+}
+.thumb-address p {
+    color: #3d3d3d;
+    line-height: normal;
+    text-align: left;
+    font-family: 'toyota_displayregular';
+    font-size: 14px;
+    height: 75px;
+}
+.thumb-address h3 {
+	font-weight: normal;
+	font-family: 'toyota_displaybold';
+	font-size: 16px;
+	color: #ff2b35;
+	text-align: center;
+	margin: 5px auto;
+}
+.thumb-address h3:before {
+	content: url(http://dealer.toyotabharat.com/dealerV10/images/utrust-logo.png);
+	margin-right: 5px;
+	vertical-align: initial;
+}
+
+@media (max-width: 799px) and (min-width:641px) {
+.thumbnails {
+	width: 50%;
+	display: inline-table;
+	margin:0 0 20px 0;
+}
+}
+@media (max-width: 640px) {
+.thumbnails {
+	width: 50%;
+	display: inline-table;
+	margin:0 0 20px 0;
+}
+}
+@media (max-width: 480px) {
+.thumbnails {
+	width: 80%;
+	display: block;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+}
+@media (max-width: 444px) and (min-width: 320px){
+.sectiontitle h2 {
+    font-size: 15px;
+}
+}

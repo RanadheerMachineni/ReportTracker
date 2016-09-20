@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+
+
+
+.loginForm {
+	height: 100px;
+	width: 100px;
+	text-align: left;
+	margin-left: 45%;
+	margin-top: 10%;
+	background-color: white;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 90px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input{
+	margin-top: 10px;
+}
